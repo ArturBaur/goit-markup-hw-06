@@ -1,1 +1,1 @@
-https://arturbaur.github.io/goit-markup-hw-06git/
+https://arturbaur.github.io/goit-markup-hw-06/
