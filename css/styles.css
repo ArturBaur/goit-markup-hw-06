@@ -889,7 +889,7 @@ a.webstudio-link-2 {
 }
 
 .backdrop-form-input:focus-within {
-  border-color: #2196f3;
+  border-color: var(--main-blue);
 }
 
 .backdrop-form-comment {
@@ -904,7 +904,7 @@ a.webstudio-link-2 {
 }
 
 .backdrop-form-comment:focus-within {
-  border-color: #2196f3;
+  border-color: var(--main-blue);
 }
 
 .backdrop-form-comment::placeholder {
@@ -920,6 +920,14 @@ a.webstudio-link-2 {
 input[type="checkbox"] {
   position: absolute;
   opacity: 0;
+}
+
+input[type="checkbox"]:focus {
+  opacity: 1;
+  width: 16px;
+  height: 15px;
+  outline: 2px solid var(--main-blue);
+  outline-offset: 5px;
 }
 
 .custom-checkbox {
