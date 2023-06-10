@@ -927,7 +927,6 @@ input[type="checkbox"]:focus {
   width: 16px;
   height: 15px;
   outline: 2px solid var(--main-blue);
-  outline-offset: 5px;
 }
 
 .custom-checkbox {
